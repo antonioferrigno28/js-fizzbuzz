@@ -26,10 +26,25 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 //ELABORAZIONE
 //PER OGNI numero da 1 a 100
-//SE il numero è divisibile per 3
-//Stampa Fizz
-
-//ALTRIMENTI SE il numero è divisibile per 5
-//Stampa Buzz
-//ALTRIMENTI SE il numero è divisibile per entrambi
-//Stampa FizzBuzz
+for (let i = 1; i <= 100; i++) {
+  //SE il numero (i) è divisibile per 3
+  if (i % 3 == 0) {
+    //Stampa Fizz
+    console.log("Fizz");
+  }
+  //ALTRIMENTI SE il numero (i) è divisibile per 5
+  else if (i % 5 == 0) {
+    //Stampa Buzz
+    console.log("Buzz");
+  }
+  //ALTRIMENTI SE il numero (i) è divisibile per entrambi
+  else if (i % 3 == 0 && i % 5 == 0) {
+    //Stampa FizzBuzz
+    console.log("FizzBuzz");
+  }
+  //ALTRIMENTI
+  else {
+    //Stampa il numero (i)
+    console.log(i);
+  }
+}
