@@ -29,7 +29,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 //SE il numero è divisibile per 3
 //Stampa Fizz
 
-//SE il numero è divisibile per 5
+//ALTRIMENTI SE il numero è divisibile per 5
 //Stampa Buzz
-//SE il numero è divisibile per entrambi
+//ALTRIMENTI SE il numero è divisibile per entrambi
 //Stampa FizzBuzz
